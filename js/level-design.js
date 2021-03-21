@@ -52,12 +52,11 @@ class LevelDesign {
     const x = Math.floor(Math.random() * this.map.length);
     const y = Math.floor(Math.random() * this.map[x].length);
     
-    // let emptyCase = false;
-    
     if (this.map[x][y] === 0) {
       return [x, y];
     } else this.randomPosition();
   }
+  
 }
 
 const map = new LevelDesign();
