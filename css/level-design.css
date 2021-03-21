@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+.level-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.row {
+    display: flex;
+
+}
+.case {
+    height: 8vw;
+    width: 8vw;
+}
+.way1 {
+    background-image: url("../assets/img/beach/way/1.png");
+    background-position: center;
+    background-size: contain;
+}
+.way2 {
+    background-image: url("../assets/img/beach/way/2.png");
+    background-position: center;
+    background-size: contain;
+}
+.gate1 {
+    background-image: url("../assets/img/beach/gates/1.png");
+    background-position: center;
+    background-size: contain;
+}
+.gate2 {
+    background-image: url("../assets/img/beach/gates/2.png");
+    background-position: center;
+    background-size: contain;
+}
+.gate3 {
+    background-image: url("../assets/img/beach/gates/3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
