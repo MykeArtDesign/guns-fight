@@ -1,6 +1,18 @@
 * {
     box-sizing: border-box;
+    font-family: Impact;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #006bb1;
 }
+h1{
+    text-align: center;
+}
+
+/*========================================================*/
+/*======================    MAP    =======================*/
+/*========================================================*/
+
 .level-design {
     display: flex;
     flex-direction: column;
@@ -17,7 +29,15 @@
 .case {
     height: 8vw;
     width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+/*========================================================*/
+/*======================    WAY    =======================*/
+/*========================================================*/
+
 .way1 {
     background-image: url("../assets/img/beach/way/1.png");
     background-position: center;
@@ -28,6 +48,11 @@
     background-position: center;
     background-size: contain;
 }
+
+/*========================================================*/
+/*=====================    GATES    ======================*/
+/*========================================================*/
+
 .gate1 {
     background-image: url("../assets/img/beach/gates/1.png");
     background-position: center;
@@ -43,4 +68,13 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/*========================================================*/
+/*====================    WEAPONS    =====================*/
+/*========================================================*/
+
+.weapon {
+    max-width: 7vw;
+    max-height: 7vw;
 }
